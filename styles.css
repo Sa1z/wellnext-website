@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+.about {
+    color: white;
+    max-width: 400px;
+    padding-left: 88px;
+    padding-top: 111px;
+}
+
+.logo {
+    padding: 25px 0 25px 70px;
+}
+
+.nav-bar {
+    background-color: #D08624;
+    opacity: 50%;
+}
