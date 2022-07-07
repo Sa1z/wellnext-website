@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: black;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
     height: 100vh;
     margin: 0;
 }
@@ -15,7 +24,14 @@ body {
     padding: 25px 0 25px 70px;
 }
 
+.menu-open {
+    max-height: 30px;
+    max-width: 44px;
+    margin-right: 70px;
+}
+
 .nav-bar {
-    background-color: #D08624;
-    opacity: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
